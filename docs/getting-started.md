@@ -21,7 +21,7 @@ Add the Spring LogKit dependency to your `pom.xml`:
 <dependency>
     <groupId>io.github.abhayrajaryan</groupId>
     <artifactId>spring-logkit</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 

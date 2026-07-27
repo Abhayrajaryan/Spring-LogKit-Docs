@@ -365,7 +365,7 @@ Every annotation accepts a `value()` parameter for a custom log message:
 public void checkAccess(String userId) { }
 ```
 
-The `{method}` placeholder is replaced with the fully qualified method signature at runtime. Not all annotations support the `{method}` placeholder — refer to each annotation's output format above.
+The `{method}` placeholder is replaced with the fully qualified method signature at runtime, and is supported by all seven annotations. The `{returnValue}` placeholder is also available, but only in `@LogAfter`, `@LogAfterWithReturnValue`, `@LogAround`, and `@LogExecutionTime`.
 
 ---
 
